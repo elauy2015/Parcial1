@@ -53,8 +53,7 @@ if (isset($_GET["terminos"])) {
 
         <div class="login-box">
             <h2>Configura tu PC</h2>
-            <form action='<?php  echo Pagina2.php?terminos='. Md5($terminos) . '&procesador='. $procesador . '&disipador='. $disipador. '&mother='. $mother. '&ram='. $ram. '&ssd='. $ssd.
-                     '&grafica='. $grafica. '&fuente='. $fuente. '&ensamblado='. $ensamblado; ?>' method="post" name="CreateForm">
+            <form action="pagina2.php" method="post" name="CreateForm">
                 <h5>Seleccione el procesador</h5>
                 <select class="form-control form-control-sm" name="procesador" required>
                     <option value="" selected>Elige...</option>
