@@ -23,6 +23,7 @@ require_once("controllers/img-controllers.php");
 </head>
 
 <body>
+    <div class="container">
     <div class="login-box2">
         <h2>Programa 1</h2>
         <table class="table table-dark table-striped">
@@ -72,6 +73,7 @@ require_once("controllers/img-controllers.php");
                 </tr>
             <?php } ?>
         </table>
+    </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>

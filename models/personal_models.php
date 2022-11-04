@@ -11,7 +11,6 @@ class personal_models {
     public $fuente;
     public $ensamblado;
     
-
     public function getprocesador() {
         $obj = new personal_utils();
         return $obj->proces($this->procesador);

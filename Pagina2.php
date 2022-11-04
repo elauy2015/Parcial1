@@ -169,7 +169,7 @@ if (isset($_GET["terminos"])) {
                     $terminos = $_POST["terminos"];
                     header('Location: Pagina2.php?terminos='. Md5($terminos) . '&procesador='. $procesador . '&disipador='. $disipador. '&mother='. $mother. '&ram='. $ram. '&ssd='. $ssd.
                      '&grafica='. $grafica. '&fuente='. $fuente. '&ensamblado='. $ensamblado);
-                    ob_get_flush();
+                    
                 }
                 ?>
             <?php
